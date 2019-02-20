@@ -1,0 +1,69 @@
+.global-container{
+	height:100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 100px;
+
+}
+
+form{
+	padding-top: 10px;
+	font-size: 14px;
+	margin-top: 30px;
+	
+
+}
+select{
+
+    background: yellow;
+    color:#000;
+    text-shadow:0 1px 0 rgba(0,0,0,0.4);
+}
+option:not(:checked) { 
+    background-color: #FFF; 
+}
+
+.inp{
+	background-color: #b3b3b3;
+}
+
+.card-title{ font-weight:300; }
+
+.btn{
+	font-size: 14px;
+	margin-top:20px;
+}
+
+
+.login-form{ 
+	width:330px;
+	margin:20px;
+	-webkit-box-shadow: -6px -10px 89px 1px rgba(99,99,99,1);
+-moz-box-shadow: -6px -10px 89px 1px rgba(99,99,99,1);
+box-shadow: -6px -10px 89px 1px rgba(99,99,99,1);
+border-radius: 10px;
+color: white;
+background-color: #333333;
+
+}
+
+select > option:hover{
+                box-shadow: 0 0 10px 100px #FED20F inset;
+                transition: all .2s ease-in-out;
+            }
+
+.sign-up{
+	text-align:center;
+	padding:20px 0 0;
+
+
+}
+
+.alert{
+	margin-bottom:-30px;
+	font-size: 13px;
+	margin-top:20px;
+
+}
+
